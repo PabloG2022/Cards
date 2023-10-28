@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial";
+    gap: 16px;
+    background-image: url("./img/fundo.jpg");
+}
+
+.card {
+    background-color:darkorange;
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12x #aaaa; 
+}
+
+.card img {
+    width: 150px;
+    height: 120px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    padding-left: 20px;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+}
+
+.card h2 {
+    font-size: .9rem;
+    color:blue
+}
+
+.card button {
+    background-color: blue;
+    height: 40px;
+    border: none;
+    width: 80px;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+
+
